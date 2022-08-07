@@ -2,4 +2,6 @@
     <string name="app_name">NavigatioinView</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">Ajuda</string>
+    <string name="new_game">Novo Jogo</string>
 </resources>
