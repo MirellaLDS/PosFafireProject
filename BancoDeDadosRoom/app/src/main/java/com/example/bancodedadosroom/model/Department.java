@@ -2,20 +2,11 @@ package com.example.bancodedadosroom.model;
 
 import java.util.List;
 
+public class Department {
 
-public class DepartamentoRes {
     private int id;
     private String name;
-    private List<ProfessorRes> professors;
-
-
-    public DepartamentoRes() {
-    }
-
-    public DepartamentoRes(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+    private transient List<Professors> professors;
 
     public int getId() {
         return id;
@@ -33,11 +24,11 @@ public class DepartamentoRes {
         this.name = name;
     }
 
-    public List<ProfessorRes> getProfessors() {
+    public List<Professors> getProfessors() {
         return professors;
     }
 
-    public void setProfessors(List<ProfessorRes> professors) {
+    public void setProfessors(List<Professors> professors) {
         this.professors = professors;
     }
 }

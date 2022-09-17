@@ -1,5 +1,6 @@
 package com.example.bancodedadosroom;
 
+import com.example.bancodedadosroom.service.DepartamentService;
 import com.example.bancodedadosroom.service.DepartamentoService;
 
 import retrofit2.Retrofit;
@@ -20,7 +21,11 @@ public class RetrofitConfig {
         return retrofit;
     }
 
-    public DepartamentoService departamentService() {
-        return retrofit.create(DepartamentoService.class);
+//    public DepartamentoService departamentoService() {
+//        return retrofit.create(DepartamentoService.class);
+//    }
+
+    public DepartamentService departamentService() {
+        return retrofit.create(DepartamentService.class);
     }
 }
